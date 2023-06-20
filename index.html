@@ -1,59 +1,552 @@
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Document</title>
-	</head>
-	<body>
-		<h1>我的网页</h1>
-		<a href="http://www.baidu.com" target="_blank"><b>百度</b><br/></a>
-		<table>
-			<caption>成员分布</caption>
-			<thead>
-				<tr>
-					<th>姓名</th>
-					<th>爱好</th>
-					<th>特长</th>
-				</tr>
-			</thead>
-				<tr>
-			<tbody>
-					<td>li</td>
-					<td>王者荣耀</td>
-					<td>无</td>
-				</tr>
-				<tr>
-					<td>wang</td>
-					<td>王者荣耀</td>
-					<td>无</td>
-				</tr>
-					<td>che</td>
-				<tr>
-					<td>王者荣耀</td>
-					<td>无</td>
-				</tr>
-				<tr>
-					<td>wang</td>
-					<td>王者荣耀</td>
-					<td>无</td>
-				</tr>
-			</tbody>
-			<tfoot>
-				<tr>
-					<td colspan="2">总结：废物</td>
-				</tr>
-			</tfoot>
-		</table>
-		<p>如果你有意见，请发邮件给我们。</p>
-		<form name="myForm" action="mailto:2695370991@qq.com" method="post" target="_blank">
-			
-			姓名：<input type="text" name="name" size="15" maxlength="4" value="例：张三">
-			性别：
-				<input type="radio" name="question1" value="boy"/>男
-				<input type="radio" name="question1" value="girl"/>女
-		</form>
-		按钮：<br/>
-		<input type="button" name="按钮" onclick="alert('你还真点啊！，你个憨批！')" value="点啊！"><br/>
-		<img src="./2047933.jpg" width="1400">
-	</body>
-</html>
+<!DOCTYPE html>
+<!-- saved from url=(0091)file:///C:/Users/%E6%80%92%E6%98%9F/AppData/Local/Temp/mume2023520-17628-142vclo.rdk5f.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>题目</title>
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="./题目_files/katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p,html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div{display:inline}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  300px/2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <h1 class="mume-header" id="%E7%94%B5%E6%B1%A0%E7%AE%A1%E7%90%86">电池管理</h1>
+
+<h2 class="mume-header" id="%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%82%A8%E8%83%BD%E6%8A%80%E6%9C%AF%E6%A6%82%E8%BF%B0">第一章储能技术概述</h2>
+
+<h3 class="mume-header" id="1-%E8%AF%B7%E6%8F%8F%E8%BF%B0%E7%94%B5%E5%8A%9B%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%BD%91%E6%9E%B6">1、请描述电力系统的基本网架？</h3>
+
+<p>电力系统的基本网架包括三级：输电网、变电网和配电网。</p>
+<ol>
+<li>
+<p><strong>输电网</strong>：输电网是电力系统的骨干，通过高电压的输电线路将发电厂产生的电能送达给各个地方，包括输电线路和变电站。输电线路主要分为交流输电线路和直流输电线路。输电线路主体是高杆塔，其抗风能力高，不利于造成爆炸事故。变电站则是承接输电线路带来的高电压电力，转换为适合城市居民、企业等各类用户使用的低电压电力。</p>
+</li>
+<li>
+<p><strong>变电网</strong>：变电网主要是承认输电网的高电压电力，将电能按照规格转变为各类需要的特定电压电力，例如将220kV的电能转变成110kV的电能进行输配电。变电网中包括各种变压器和区域分站设备，通过组网控制，将链式电力升降。</p>
+</li>
+<li>
+<p><strong>配电网</strong>：配电网是指从变电站开始的低压电力配送，包括连接变电站和消费者的各类线路、变压器、变电器、消弧器、电表、配电线路及其它保护设备。配电网的主要任务是将发电厂产生的电力输送到电力用户家庭，工业用电、商业、公共场所、住宅等。</p>
+</li>
+</ol>
+<p>三级网架连接交错，通过变电站的封装和组装，把其各类电线连接起来，形成一张几乎全国连通的DV28线网。同时，通过线路的交错过滤，避免电网故障，提高电网的可靠性和安全性。电力系统的基本网架通过分布式电源、储能技术等多种新技术的应用，可以更好地履行电力供应、调度等职能，为整个社会进行生产和生活服务。</p>
+<h3 class="mume-header" id="2-%E5%82%A8%E8%83%BD%E7%9A%84%E4%B8%BB%E8%A6%81%E6%96%B9%E5%BC%8F%E6%9C%89%E9%82%A3%E4%BA%9B%E7%94%B5%E5%8A%9B%E5%82%A8%E8%83%BD%E5%88%86%E4%B8%BA%E9%82%A3%E5%87%A0%E7%B1%BB">2、储能的主要方式有那些？电力储能分为那几类？</h3>
+
+<p><img src="./题目_files/2023-06-18-16-46-08.png" alt="1"></p>
+<h3 class="mume-header" id="3-%E7%94%B5%E5%8A%9B%E5%82%A8%E8%83%BD%E7%9A%84%E5%BA%94%E7%94%A8%E9%A2%86%E5%9F%9F%E5%8C%85%E6%8B%AC%E9%82%A3%E5%87%A0%E7%B1%BB">3、电力储能的应用领域包括那几类？</h3>
+
+<ul>
+<li><strong>便携式储能、车载移动式储能、大容量固定式储能</strong></li>
+</ul>
+<h3 class="mume-header" id="4-%E7%94%B5%E6%B1%A0%E5%82%A8%E8%83%BD%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%BB%93%E6%9E%84%E5%8C%85%E6%8B%AC%E9%82%A3%E5%87%A0%E4%B8%AA%E9%83%A8%E5%88%86">4、电池储能系统的结构包括那几个部分？</h3>
+
+<ul>
+<li>完整的电化学储能系统主要由:<strong>电池组、电池管理系统( BMS).能量管理系统( EMS).储能变流器( PCS )以及其他电气设备构成。</strong>
+<ul>
+<li><strong>电池组</strong> :担任关键的储能角色,是储能系统最核心的构成部分;</li>
+<li><strong>电池管理系统BMS</strong> :担任感知角色,主要负责电池的监测、评估、保护以及均衡等;</li>
+<li><strong>能量管理系统EMS</strong> :担任决策角色,主要负责数据采集、网络监控和能量调度等;</li>
+<li><strong>储能变流器PCS</strong> :担任执行角色,主要功能为控制储能电池组的充电和放电过程,进行交直流的变换。</li>
+</ul>
+</li>
+</ul>
+<h2 class="mume-header" id="%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%94%B5%E5%B7%A5%E5%9F%BA%E7%A1%801">第二章（电工基础1）</h2>
+
+<h3 class="mume-header" id="1-%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%A4%A7%E5%8A%9B%E5%8F%91%E5%B1%95%E5%82%A8%E8%83%BD%E6%8A%80%E6%9C%AF">1、为什么要大力发展储能技术？</h3>
+
+<p>发展储能技术是非常重要的，其原因主要包括以下几个方面：</p>
+<ol>
+<li>
+<p><strong>解决能源矛盾</strong>：当下全球能源供需矛盾日益突出，储能技术则能够通过储存电能，以随时调整能量供需平衡的方式，解决能源矛盾问题。</p>
+</li>
+<li>
+<p><strong>改善电力质量</strong>：电能储存技术有助于提高电力系统的稳定运行能力和供电质量，保障电力质量和可靠性，更好地满足工业生产、社会居民和公共服务的需求。</p>
+</li>
+<li>
+<p><strong>促进可再生能源发展</strong>：储能技术与可再生能源相结合，可以解决可再生能源不稳定和不可控的问题，促进可再生能源的发展，降低化石燃料的消耗，有利于开发清洁能源，如太阳能、风能等。</p>
+</li>
+<li>
+<p><strong>降低能源成本</strong>：储能技术有助于利用低峰期的电能，可以减少电力的浪费，降低能源成本，提高供电效率，创造更多的经济价值。</p>
+</li>
+<li>
+<p><strong>增加能源安全</strong>：储能技术的发展有助于减少对外能源的依赖，增加能源安全，促进国家能源战略的顺利执行。</p>
+</li>
+</ol>
+<p>总之，随着能源问题的凸显和技术的不断进步，发展储能技术成为了当下重要的任务和趋势，有利于保障能源安全、改善能源质量、促进可再生能源发展和节约资源。</p>
+<h3 class="mume-header" id="2-%E5%82%A8%E8%83%BD%E6%96%B9%E5%BC%8F%E4%B8%BB%E8%A6%81%E5%88%86%E4%B8%BA%E9%82%A3%E5%87%A0%E7%B1%BB">2、储能方式主要分为那几类？</h3>
+
+<p>储能方式主要分为以下几类：</p>
+<ol>
+<li>
+<p><strong>电化学储能方式</strong>：电池是电化学储能方式的典型代表，这种方式通过将电荷储存在电极中，在需要时释放出来，常用于电通信、储能电站、光伏电站、风力发电站等。</p>
+</li>
+<li>
+<p><strong>机械储能方式</strong>：机械储能是指通过动力机械装置，将能量转化为物理的动量或者重力势能来储存，其典型代表是重力储能，如抽水储能电站。</p>
+</li>
+<li>
+<p><strong>热储能方式</strong>：热储能指的是将能量转化为热能，通过介质吸收并存储能量，再在需要的时候释放热能的一种方式。 典型的热储能技术为蓄热系统，如冷热储能系统、热泵储热系统等。</p>
+</li>
+<li>
+<p><strong>磁性储能方式</strong>：磁性储能指的是利用磁场产生的磁性势能来存储能量，并在需要的时候释放以产生电力的一种方式。 典型的磁性储能技术为超导储能器。</p>
+</li>
+<li>
+<p><strong>化学储能方式</strong>：化学储能指的是通过化学反应转化的化学能，将能量贮存起来，并在需要时释放出来，如将电能转化为氢贮存，利用燃料电池将氢化学能转化为电能。</p>
+</li>
+</ol>
+<p>综上所述，储能方式有多种类型，每种类型有其特点和应用。随着技术的不断进步和应用的不断拓展，研究和发展高效可靠的储能技术，对于实现能源的可持续发展是非常重要的。</p>
+<h3 class="mume-header" id="3-%E7%94%B5%E5%8A%9B%E7%B3%BB%E7%BB%9F%E5%82%A8%E8%83%BD%E7%9A%84%E5%85%B8%E5%9E%8B%E5%9C%BA%E6%99%AF%E6%9C%89%E9%82%A3%E4%BA%9B">3、电力系统储能的典型场景有那些？</h3>
+
+<p>电力系统储能的典型场景有以下几种：</p>
+<ol>
+<li>
+<p><strong>太阳能/风能等再生能源储能</strong>：再生能源具有不稳定性和间歇性，随时可能因天气、环境等原因而发生波动，因此可通过储能技术来缓解再生能源波动性，提高电力系统可靠性。</p>
+</li>
+<li>
+<p><strong>峰谷调峰储能</strong>：由于用电量呈现峰谷波动特征，电网在峰值电量压力下会出现缺电瓶颈，此时可利用储能设备，将用电谷值电量储存，待峰值电量到来时再进行释放，缓解电力系统供需压力。</p>
+</li>
+<li>
+<p><strong>分布式能源储能</strong>：分布式能源有助于降低电网压力，可采用分散式储能方式，通过将太阳能、风能等分布式能源储存在锂离子电池、超级电容等设备中，以提高分布式能源的利用率。</p>
+</li>
+<li>
+<p><strong>电动汽车充电储能</strong>：利用电动汽车进行电网调峰。在充电过程中，储备能量可以通过电动汽车的车载储能电池进行暂时存储，当负荷增加时，再通过车载储能电池释放其储备的电能。</p>
+</li>
+<li>
+<p><strong>供电安全备份储能</strong>：为确保供电设备始终处于正常供电 status（在特定场合很重要），如果出现突发事故，储能设备就会为供电设备提供一定的电力输出，提高供电设备运行的可靠性和安全性。</p>
+</li>
+</ol>
+<p>综上所述，电力系统储能的典型场景主要是针对电力系统的供需平衡和调峰方面，如平衡再生能源波动、调峰、备份、储能等领域。利用储能技术可以有效提高电力系统的可靠性和稳定性，促进清洁能源的发展，实现可持续能源利用。</p>
+<h2 class="mume-header" id="%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%94%B5%E5%B7%A5%E5%9F%BA%E7%A1%802">第二章 （电工基础2）</h2>
+
+<pre class="language-text">1、掌握基尔霍夫定律，了解电压电流的参考方向、关联参考方向，学会计算电路元件的功率，掌握发出或吸收功率的判断方法
+2、掌握半导体材料的基本知识，学会辨别导体、半导体和绝缘体，掌握P型或N型半导体
+3、掌握MOSFET的工作原理，包括导电沟道的形成过程
+</pre>
+<h2 class="mume-header" id="%E7%AC%AC%E4%B8%89%E7%AB%A0-%E5%85%85%E6%94%BE%E7%94%B5%E6%8E%A7%E5%88%B6%E6%8A%80%E6%9C%AF">第三章 充放电控制技术</h2>
+
+<h3 class="mume-header" id="1-%E8%AF%B7%E6%8F%8F%E8%BF%B0%E5%82%A8%E8%83%BD%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%83%BD%E9%87%8F%E4%BA%A4%E6%8D%A2%E8%BF%87%E7%A8%8B%E5%8C%85%E6%8B%AC%E5%A6%82%E4%BD%95%E7%95%8C%E5%AE%9A%E4%BA%A4%E6%B5%81%E4%BE%A7%E5%92%8C%E7%9B%B4%E6%B5%81%E4%BE%A7%E7%9A%84%E5%85%85%E6%94%BE%E7%94%B5%E7%8A%B6%E6%80%81%E5%A6%82%E4%BD%95%E5%AE%9A%E4%B9%89%E5%82%A8%E8%83%BD%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%95%88%E7%8E%87">1、请描述储能系统的能量交换过程，包括：如何界定交流侧和直流侧的充放电状态？如何定义储能系统的效率？</h3>
+
+<p><img src="./题目_files/2023-06-18-16-59-44.png" alt="1"></p>
+<p>2、熟悉DC-DC变流电路，掌握Buck电路和Boost电路的降压或升压原理，并计算输出电压与输入电压和占空比的关系<br>
+3、了解AC-DC变换电路，掌握交流直流转换的原理</p>
+<h2 class="mume-header" id="%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E4%B8%BB%E5%8A%A8%E5%9D%87%E8%A1%A1%E7%94%B5%E8%B7%AF">第四章、主动均衡电路</h2>
+
+<h3 class="mume-header" id="1-%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E8%BF%9B%E8%A1%8C%E4%B8%BB%E5%8A%A8%E5%9D%87%E8%A1%A1">1、为什么要进行主动均衡？</h3>
+
+<p>因为电池组中每节电池容量不同、内部电阻不同、寿命不同、工作环境不同等因素使得电池之间的SOC（State of Charge）不一致，造成电池组的整体性能下降，容易出现低电容快速衰退的状况。而电池组主动均衡技术是通过电池内阻、电压、负载等参数对电池组进行控制，使得整个电池组中所有电池的容量、电压、SOC等参数趋于一致，从而提高电池组的可靠性、寿命和安全性。</p>
+<p>具体而言，主动均衡具有以下几方面的作用：</p>
+<ol>
+<li>
+<p><strong>提高电池组的使用寿命</strong>：电池组进行主动均衡可以避免因过充、过放或SOC不平衡等因素而造成电池快速衰老及损坏，从而延长电池组的使用周期。</p>
+</li>
+<li>
+<p><strong>提高电池组的能量密度</strong>：均衡电池组中各个电池的SOC，增强电池组的能量密度。</p>
+</li>
+<li>
+<p><strong>提高电池组的安全性</strong>：当电池组中电池SOC差异过大时，会增加电池的过充或过放风险，产生火灾或爆炸，通过主动均衡可以有效地降低电池的安全风险。</p>
+</li>
+<li>
+<p><strong>优化电池组性能</strong>：电池组进行主动均衡，可以优化电池组的整体性能，提高电池组的充电效率、放电效率以及稳定性。</p>
+</li>
+</ol>
+<p>需要注意的是，电池组的主动均衡是对于动力电池而言，瞬时电流和反复循环均衡过程中电池产生的热量也需要适当被控制，以确保均衡的过程尽可能安全、稳定、高效。</p>
+<h3 class="mume-header" id="2-%E4%B8%BB%E5%8A%A8%E5%9D%87%E8%A1%A1%E7%94%B5%E8%B7%AF%E7%9A%84%E5%88%86%E7%B1%BB%E6%9C%89%E9%82%A3%E4%BA%9B">2、主动均衡电路的分类有那些？</h3>
+
+<ul>
+<li>电容式</li>
+<li>电感式</li>
+<li>变压器式</li>
+</ul>
+<h3 class="mume-header" id="3-%E7%94%B5%E6%84%9F%E5%BC%8Fbuckboost%E5%9D%87%E8%A1%A1%E5%99%A8%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E6%B3%A2%E5%BD%A2%E5%88%86%E6%9E%90">3、电感式Buck/Boost均衡器的工作原理及波形分析？</h3>
+
+<p>电感式Buck/Boost均衡器是一种常用的电池均衡器，其主要原理是通过电感线圈中的能量存储和释放，将电池之间的能量相互转移来实现均衡。该均衡器主要采用了Buck和Boost电路原理，可以实现对电池SOC的快速均衡。</p>
+<p><strong>工作原理</strong>：</p>
+<p>电感式Buck/Boost均衡器主要由几个电感线圈和一些二极管组成，并将其连接在电池组的不同节点上。在均衡开始时，会先断开电池之间的互联，从而电池之间的SOC差异逐渐减小。电感式Buck/Boost均衡器的主要作用是通过切换器的开闭和电感线圈存储释放能量的方式，将电池之间的能量转移，从而均衡电池SOC。当需要从某个电池中抽取能量时，切换器会将电池与电感线圈连接在一起，电池释放能量进入电感线圈中；当需要向某个电池输送能量时，切换器会将电感线圈与目标电池连接，电感线圈中的能量进入电池中。不断地循环这一过程，即可实现电池SOC的均衡。</p>
+<p><strong>波形分析</strong>：</p>
+<p>在电感式Buck/Boost均衡器工作期间，电感线圈内的电感能储存能量，并在开关管导通时将能量释放到电池或负载上。当开关管 关断时，电感线圈内的电流将产生自感电压，即Ldi/dt，该电压方向与电池电压方向相反，从而使电池之间的电压差异得到均衡。在电感线圈内，能量要求始终为正，从而保证了电池之间的能量转移方向正确。因此，电感式Buck/Boost均衡器的输出电压波形应是周期性的，且幅值在某个范围内波动，但总体趋于平衡。</p>
+<p>需要注意的是，电感式Buck/Boost均衡器中电感的选取与均衡器的电路拓扑结构密切相关，同时还需要考虑电池组的额定电压、容量等参数，以及线路的电阻、电容等影响因素。在设计和使用中，需要结合具体实际情况进行合理优化和应用。</p>
+<h2 class="mume-header" id="%E7%AC%AC%E4%BA%94%E7%AB%A0-%E7%94%B5%E6%B1%A0%E6%A3%80%E6%B5%8B%E7%B3%BB%E7%BB%9F">第五章 电池检测系统</h2>
+
+<h3 class="mume-header" id="1-bms%E7%9A%84%E5%85%A8%E7%A7%B0%E5%92%8C%E5%AE%9A%E4%B9%89">1、BMS的全称和定义？</h3>
+
+<p>电池管理系统（Battery&nbsp;Management&nbsp;System，BMS）<br>
+电池管理系统（BMS），<strong>通过采样电路实时采集电池组和各个单体电池的端电压、电流、温度等信息，运用既定的算法和策略估算电池组SOC、SOH、SOP以及剩余寿命(Remaining Useful Life，RUL)等状态参量，并将数据输出到控制器，为储能系统的能量管理和动力分配控制提供依据，从而提升电池的安全稳定性、保障电池使用寿命。</strong></p>
+<h3 class="mume-header" id="2-bms%E7%9A%84%E6%8A%80%E6%9C%AF%E7%BB%93%E6%9E%84%E5%8C%85%E6%8B%AC%E9%82%A3%E4%B8%89%E5%A4%A7%E9%83%A8%E5%88%86%E4%BB%96%E4%BB%AC%E5%88%86%E5%88%AB%E5%8C%85%E5%90%AB%E9%82%A3%E4%BA%9B%E5%86%85%E5%AE%B9">2、BMS的技术结构包括那三大部分？他们分别包含那些内容？</h3>
+
+<p><img src="./题目_files/2023-06-20-17-34-41.png" alt="1"></p>
+<h3 class="mume-header" id="3-bms%E7%9A%84%E7%89%A9%E7%90%86%E7%BB%93%E6%9E%84%E4%B8%BB%E8%A6%81%E5%8C%85%E6%8B%AC%E9%82%A3%E5%85%AB%E4%B8%AA%E5%8D%95%E5%85%83">3、BMS的物理结构主要包括那八个单元？</h3>
+
+<ol>
+<li>数据采集</li>
+<li>状态监测</li>
+<li>安全保护</li>
+<li>充电控制</li>
+<li>能量控制管理</li>
+<li>均衡管理</li>
+<li>热管理</li>
+<li>信息管理</li>
+</ol>
+<h3 class="mume-header" id="4-%E7%94%B5%E6%B1%A0%E7%9A%84%E5%BC%80%E8%B7%AF%E7%94%B5%E5%8E%8B-%E9%A2%9D%E5%AE%9A%E7%94%B5%E5%8E%8B-%E5%B7%A5%E4%BD%9C%E7%94%B5%E5%8E%8B-%E5%85%85%E6%94%BE%E7%94%B5%E7%BB%88%E6%AD%A2%E7%94%B5%E5%8E%8B-%E8%83%BD%E9%87%8F%E5%AF%86%E5%BA%A6-socdod-%E6%94%BE%E7%94%B5%E6%97%B6%E7%8E%87-%E6%94%BE%E7%94%B5%E5%80%8D%E7%8E%87%E5%88%86%E5%88%AB%E6%8C%87%E4%BB%80%E4%B9%88">4、电池的开路电压、额定电压、工作电压、充/放电终止电压、能量密度、SOC/DOD、放电时率、放电倍率分别指什么？</h3>
+
+<ol>
+<li><strong>开路电压</strong></li>
+</ol>
+<ul>
+<li>电池在断路时电池两极的电极电位之差。</li>
+</ul>
+<ol start="2">
+<li><strong>额定电压</strong></li>
+</ol>
+<ul>
+<li>在规定条件下电池工作的标准电压，用来区分电池体系。如铅酸电池：2.0V；镉镍电池：1.2V；氢镍电池：1.2V；锌锰电池：1.5V；锂离子电池：3.6-3.8V。</li>
+</ul>
+<ol start="3">
+<li><strong>工作电压</strong></li>
+</ol>
+<ul>
+<li>又称放电电压或负荷电压，是指电池对外输出电流时，电池两极间的电位差。</li>
+</ul>
+<ol start="4">
+<li><strong>放电终止电压</strong></li>
+</ol>
+<ul>
+<li>指放电时，电压下降到不宜再继续放电的最低工作电压值，是人为规定的值。</li>
+</ul>
+<ol start="5">
+<li><strong>能量和比能量</strong></li>
+</ol>
+<ul>
+<li>电池在一定条件下对外做功所能输出的电能叫做电池的能量，单位一般用Wh表示。</li>
+</ul>
+<ol start="6">
+<li><strong>SOC和DOD</strong></li>
+</ol>
+<ul>
+<li>SOC（State of Charge）－为荷电状态，表示电池剩余容量与总容量的百分比。</li>
+<li>DOD（Depth of Discharge）－为放电深度，表示放电程度的一种量度，为放电容量与总放电容量的百分比。</li>
+</ul>
+<ol start="7">
+<li><strong>放电时率及放电倍率</strong><br>
+是一种表达电池放电电流大小的方法。</li>
+</ol>
+<ul>
+<li>放电时率：指在规定的放电时间内，电池放出全部额定容量。</li>
+<li>放电倍率：指放电电流为电池额定容量的某一个倍数。</li>
+</ul>
+<h3 class="mume-header" id="5-%E5%9C%A8%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86%E5%8D%95%E5%85%83%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E7%94%B5%E5%8E%8B%E9%87%87%E9%9B%86-%E7%94%B5%E6%B5%81%E9%87%87%E9%9B%86%E5%92%8C%E6%B8%A9%E5%BA%A6%E9%87%87%E9%9B%86%E6%96%B9%E6%B3%95%E6%9C%89%E9%82%A3%E4%BA%9B%E5%90%84%E6%9C%89%E4%BB%80%E4%B9%88%E7%89%B9%E7%82%B9">5、在数据采集单元中，常用的电压采集、电流采集和温度采集方法有那些，各有什么特点？</h3>
+
+<ol>
+<li><strong>电压采集</strong></li>
+</ol>
+<ul>
+<li>继电器阵列法</li>
+<li>恒流源法</li>
+<li>隔离运放采集法</li>
+<li>压/频转换电路采集法</li>
+<li>线性光耦合放大电路采集法</li>
+</ul>
+<ol start="2">
+<li><strong>温度采集</strong></li>
+</ol>
+<ul>
+<li>热敏电阻采集法</li>
+<li>热电偶采集法</li>
+<li>集成温度传感器采集法</li>
+</ul>
+<ol start="3">
+<li>电流采集</li>
+</ol>
+<h3 class="mume-header" id="6-soc%E4%BC%B0%E7%AE%97%E7%9A%84%E6%96%B9%E6%B3%95%E4%B8%BB%E8%A6%81%E6%9C%89%E9%82%A3%E5%87%A0%E7%B1%BB%E5%90%84%E7%B1%BB%E4%B8%AD%E6%9C%89%E9%82%A3%E4%BA%9B%E5%85%B8%E5%9E%8B%E7%AE%97%E6%B3%95">6、SOC估算的方法主要有那几类？各类中有那些典型算法？</h3>
+
+<p><img src="./题目_files/2023-06-20-17-53-08.png" alt="1"></p>
+<h3 class="mume-header" id="7-%E4%BB%80%E4%B9%88%E6%98%AF%E9%94%82%E7%94%B5%E6%B1%A0%E7%9A%84sohsoh%E7%9A%84%E4%BC%B0%E7%AE%97%E6%96%B9%E6%B3%95%E6%9C%89%E9%82%A3%E4%BA%9B">7、什么是锂电池的SOH？SOH的估算方法有那些？</h3>
+
+<ul>
+<li>SOH（State&nbsp;of&nbsp;Health）即电池的健康状态，是用来表征电池是否可以正常工作的一个指标，当SOH较差时电池可能已经处于失效状态。<br>
+<img src="./题目_files/2023-06-20-17-54-48.png" alt="1"></li>
+</ul>
+<h3 class="mume-header" id="8-%E7%94%B5%E6%B1%A0%E7%9A%84%E4%B8%8D%E4%B8%80%E8%87%B4%E6%80%A7%E6%9C%89%E9%82%A3%E4%B8%A4%E7%A7%8D%E5%85%B7%E4%BD%93%E8%A1%A8%E7%8E%B0%E5%88%86%E5%88%AB%E6%98%AF%E6%8C%87%E4%BB%80%E4%B9%88">8、电池的不一致性有那两种具体表现？分别是指什么？</h3>
+
+<ol>
+<li><strong>第一类不一致性</strong></li>
+</ol>
+<ul>
+<li>电池自身容量的差异导致的不一致性。第一类不一致性由电池生产制造工艺不完善导致，同一批次电池容量有一定的离散性。</li>
+</ul>
+<ol start="2">
+<li><strong>第二类不一致性</strong></li>
+</ol>
+<ul>
+<li>纯粹由各个单体电池初始电量差异导致的不一致性。第二类不一致性不依赖于第一类不一致性存在。</li>
+<li>电池组在实际应用过程中因为内阻差异、自放电率差异等原因，第二类不一致性会从无到有，从弱到强。</li>
+</ul>
+<h3 class="mume-header" id="9-%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E7%94%B5%E6%B1%A0%E7%BB%84%E7%9A%84%E4%B8%8D%E4%B8%80%E8%87%B4%E6%80%A7%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%E7%9A%84%E5%88%86%E7%B1%BB%E5%8C%85%E6%8B%AC">9、如何解决电池组的不一致性问题？及解决方法的分类包括？</h3>
+
+<p><img src="./题目_files/2023-06-20-17-59-09.png" alt="1"><br>
+<img src="./题目_files/2023-06-20-17-59-41.png" alt="2"></p>
+<h3 class="mume-header" id="10-%E5%9C%A8%E5%90%AB%E6%9C%894%E8%8A%82%E5%8D%95%E4%BD%93%E7%94%B5%E6%B1%A0%E7%9A%84%E4%B8%B2%E8%81%94%E7%94%B5%E6%B1%A0%E6%94%AF%E8%B7%AF%E4%B8%AD%E5%BD%93%E5%87%BA%E7%8E%B0%E4%B8%8D%E4%B8%80%E8%87%B4%E9%97%AE%E9%A2%98%E6%97%B6%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E5%85%85%E7%94%B5-%E6%94%BE%E7%94%B5%E5%92%8C%E9%97%B2%E7%BD%AE%E6%A8%A1%E5%BC%8F%E4%B8%8B%E7%9A%84%E7%94%B5%E9%87%8F%E5%9D%87%E8%A1%A1%E6%8E%A7%E5%88%B6">10、在含有4节单体电池的串联电池支路中，当出现不一致问题时，如何实现充电、放电和闲置模式下的电量均衡控制？</h3>
+
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  </body></html>
