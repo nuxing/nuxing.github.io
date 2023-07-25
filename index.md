@@ -140,4 +140,48 @@
 + format
   + n.形式；格式
 
+## 7.25 (2007)
+
++ spouse
+  + n.配偶
++ got laid off
+  + 被解雇
++ sick
+  + a.生病的；对......厌倦的
++ insurance
+  + n.保险费；预防措施
++ guaranteed
+  + a.有保障的
++ picture
+  + n.照片；描绘；状况
+  + v.想象；描述
+  + &n.情形；局面
++ absolute
+  + a.完全的；绝对的
++ frightening
+  + n.加速；增速
++ deprive
+  + v.剥夺；使丧失
+
+---
+
++ &sort
+  + v.解决；安排
++ heads rolling
+  + 受罚
++ staff
+  + n.全体职员
+  + v.任职于
++ feeble
+  + a.无效的；无力的
++ executive
+  + a.行政的；管理的
++ intricate
+  + a.错综复杂的
++ &dim
+  + a.愚笨的
++ hugely
+  + ad.极度；极其
++ fierce
+  + a.凶残的；激烈的
 
