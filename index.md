@@ -2,186 +2,229 @@
 
 ## 7.22 (2006)
 
-+ in spite of
++ **in spite of**
   + 不管；尽管
-+ homogenize
++ **homogenize**
   + v.使大众化
-+ deference
++ **deference**
   + n.恭敬；尊敬
-+ launch
++ **launch**
   + v.发起；发动
-+ &force
++ **&force**
   + n.有影响力的人或事物
-+ elevating
++ **elevating**
   + a.提升思想道德水平
-+ census 
++ **census **
   + n.人口普查
-+ bilingual
++ **bilingual**
   + a.会说两种语言的
-+ divisive
++ **divisive**
   + a.导致分裂的
-+ &pocket
++ **&pocket**
   + n.孤立的人群；小组织
-+ seethe
++ **seethe**
   + v.翻滚；涌动
 
 ---
 
-+ cottage
++ **cottage**
   + n.小屋；村舍
-+ playgoer
++ **playgoer**
   + n.戏迷
-+ &wing
++ **&wing**
   + 侧厅；耳房
-+ rocket
++ **rocket**
   + n.火箭；焰火
   + vi.快速增长；迅速移动
-+ pointed
++ **pointed**
   + a.尖的
-+ standing-room ticket
++ **standing-room ticket**
   + 站票
-+ &cover
++ **&cover**
   + v.足以支付；够付
-+ detached
++ **detached**
   + a.超然的；冷漠的
 
 
 ## 7.23 (2006)
 
-+ &game
++ **&game**
   + n.猎物
-+ fishery
++ **fishery**
   + n.渔场
-+ halve
++ **halve**
   + v.减为一半
-+ &effort
++ **&effort**
   + n.有组织的行动
-+ massive
++ **massive**
   + a.巨大的；非常严重的
-+ &well
++ **&well**
   + ad.大大的；远远的
-+ &hold
++ **&hold**
   + v.认为；相信
 
 ---
 
-+ suited
++ **suited**
   + a.适合的；合适的
-+ phony
++ **phony**
   + a.虚假的；欺骗人的
-+ &damn
++ **&damn**
   + a.太多的；十足的
-+ &track
++ **&track**
   + v.追随......的进程
-+ celebrity
++ **celebrity**
   + n.名人；名声
-+ &agenda
++ **&agenda**
   + n.隐秘的动机
-+ attack
++ **attack**
   + v.攻击；（疾病等）发作
   + n.进攻；伤害
-+ potential
++ **potential**
   + a.潜在的
   + n.潜力；可能性
-+ live with
++ **live with**
   + 忍受；容忍
-+ &message
++ **&message**
   + n.启示；寓意
-+ memento mori
++ **memento mori**
   + n.(拉丁语)人终有一死
 
 ## 7.24 (2007)
 
-+ certificate
++ **certificate**
   + n.证明；证明书
-+ tournament
++ **tournament**
   + n.锦标赛
-+ &rank
++ **&rank**
   + n.团体或组织的成员
-+ stamina
++ **stamina**
   + n.耐力；耐性
-+ &couple
++ **&couple**
   + v.连接；结合
-+ cognitive
++ **cognitive**
   + a.认知的
-+ pursuit
++ **pursuit**
   + n.爱好；特定的活动
-+ craze
++ **craze**
   + n.狂热；狂潮
-+ nurture
++ **nurture**
   + n.养育；培养
 
 ---
 
-+ field
++ **field**
   + v.处理；应付
-+ fondness
++ **fondness**
   + n.喜爱；喜欢
-+ elude
++ **elude**
   + v.难倒；使不理解
-+ sequence
++ **sequence**
   + n.顺序；序列
-+ &divide
++ **&divide**
   + v.除以；除
-+ chronological
++ **chronological**
   + a.按时间计算的
-+ chronological age
++ **chronological age**
   + 生理年龄
-+ article
++ **article**
   + n.文章；条款；物品
-+ component
++ **component**
   + n.组成部分
-+ critical
++ **critical**
   + a.批判的；关键的；危急的
-+ negatively
++ **negatively**
   + ad.不利的；消极的；表示否定的
-+ &matter
++ **&matter**
   + vt.要紧
-+ format
++ **format**
   + n.形式；格式
 
 ## 7.25 (2007)
 
-+ spouse
++ **spouse**
   + n.配偶
-+ got laid off
++ **got laid off**
   + 被解雇
-+ sick
++ **sick**
   + a.生病的；对......厌倦的
-+ insurance
++ **insurance**
   + n.保险费；预防措施
-+ guaranteed
++ **guaranteed**
   + a.有保障的
-+ picture
++ **picture**
   + n.照片；描绘；状况
   + v.想象；描述
   + &n.情形；局面
-+ absolute
++ **absolute**
   + a.完全的；绝对的
-+ frightening
++ **frightening**
   + n.加速；增速
-+ deprive
++ **deprive**
   + v.剥夺；使丧失
 
 ---
 
-+ &sort
++ **&sort**
   + v.解决；安排
-+ heads rolling
++ **heads rolling**
   + 受罚
-+ staff
++ **staff**
   + n.全体职员
   + v.任职于
-+ feeble
++ **feeble**
   + a.无效的；无力的
-+ executive
++ **executive**
   + a.行政的；管理的
-+ intricate
++ **intricate**
   + a.错综复杂的
-+ &dim
++ **&dim**
   + a.愚笨的
-+ hugely
++ **hugely**
   + ad.极度；极其
-+ fierce
++ **fierce**
   + a.凶残的；激烈的
 
+## 7.26 (2008)
+
++ **particularly**
+  + a.特定的；格外的；挑剔的
+  + n.细节
++ **catch up to**
+  + 追上；赶上
++ **udesirable**
+  + a.不利的
++ **worn**
+  + a.用旧的；筋疲力尽的
++ **domestic**
+  + a.家庭的；家务的
++ **strain**
+  + n.焦虑；过度劳累
++ **durable**
+  + a.持久的；长期的
++ **barely**
+  + ad.几乎不；简直没有
+
+---
+
++ **affiliation**
+  + n.隶属；从属
++ **rest**
+  + n.剩余部分；休息时间
+  + vi.中止；长眠
++ **agency**
+  + n.代理机构
++ **access**
+  + n.获取机会；使用权
++ **handsome**
+  + a.美观的；巨额的
++ **estimate**
+  + v./n.估计；估算
++ **association**
+  + n.协会；联盟
++ **typically**
+  + ad.通常；一般
++ **render**
+  + v.使变成；使变得
++ **considerably**
+  + ad.非常；很
