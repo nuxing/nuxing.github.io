@@ -14,7 +14,7 @@
   + n.有影响力的人或事物
 + **elevating**
   + a.提升思想道德水平
-+ **census **
++ **census**
   + n.人口普查
 + **bilingual**
   + a.会说两种语言的
@@ -44,7 +44,6 @@
   + v.足以支付；够付
 + **detached**
   + a.超然的；冷漠的
-
 
 ## 7.23 (2006)
 
@@ -228,3 +227,41 @@
   + v.使变成；使变得
 + **considerably**
   + ad.非常；很
+
+## 7.27 (2008)
+
++ **dramatically**
+  + ad.显著的；大幅度的
++ **fit**
+  + v.尺寸合适；合身
++ **obscure**
+  + v.使模糊；掩盖
++ **tissue**
+  + n.纸巾；组织
++ **secular**
+  + a.长期性的
++ **substantical**
+  + a.大量的；可观的
++ **strain**
+  + n.压力；重负
+
+---
+
++ **understood**
+  + v.懂；理解；了解
++ &part
+  + v.分离；分开
++ **institution**
+  + n.制度
++ &count
+  + v.看作；算作
++ **inflate**
+  + v.大幅增加
++ **grant**
+  + v.批准；正式给予
++ &will
+  + n.遗嘱
++ **primitive**
+  + a.原始的；远古的
++ **confront**
+  + v.使面临
