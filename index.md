@@ -249,19 +249,64 @@
 
 + **understood**
   + v.懂；理解；了解
-+ &part
++ **&part**
   + v.分离；分开
 + **institution**
   + n.制度
-+ &count
++ **&count**
   + v.看作；算作
 + **inflate**
   + v.大幅增加
 + **grant**
   + v.批准；正式给予
-+ &will
++ **&will**
   + n.遗嘱
 + **primitive**
   + a.原始的；远古的
 + **confront**
   + v.使面临
+
+## 7.28 (2009)
+
++ **herd**
+  + n.兽群；牧群；一般民众
++ **zone**
+  + n.地带；区域
++ **wonder**
+  + n.惊奇；惊叹
++ **approach**
+  + n.方法；态度；靠近
+  + v.要求；处理；对付
++ **emphasis**
+  + n.强调；重视
++ **foster**
+  + v.促进；助长；培养
++ **derive**
+  + v.起源于；来自
++ **fantastic**
+  + a.奇异的；怪诞的
++ **activate**
+  + v.激活；使活化
+
+---
+
++ **wise**
+  + a.睿智的
+  + 以......方式
++ **latest**
+  + a.最近的
++ &rage
+  + n.时尚；流行
++ **passionate**
+  + a.热诚的；狂热的
++ **candidate**
+  + n.候选人；申请人；被认定的合适者
++ **hawk**
+  + n.鹰
+  + v.叫卖；兜售
++ **promotion**
+  + n.广告宣传；促销
++ **overlap**
+  + v.重叠；交叠
++ **against**
+  + 反对；违反
