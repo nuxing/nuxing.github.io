@@ -310,3 +310,49 @@
   + v.重叠；交叠
 + **against**
   + 反对；违反
+
+## 7.29 (2009)
+
++ **radically**
+  + adv.根本的；彻底的
++ **consistently**
+  + ad.一致的
++ **conventional**
+  + a.传统的
++ **derided**
+  + v.嘲笑；愚弄
++ **ironically**
+  + ad.讽刺的是
++ **despite**
+  + 尽管
++ **suspect**
+  + v.疑有；猜想
++ **substantially**
+  + ad.大大的
+
+---
+
++ **attached**
+  + a.依恋的；所附属于......的
++ **established**
+  + v.使......被接受；确立；建立；
++ **approach**
+  + n.方法；态度；路径
+  + v.要求；处理
++ **episode**
+  + n.一个事件
++ **virtuosity**
+  + n.精湛的技艺
++ **reach**
+  + v.被······看到
++ **earnestness**
+  + n.认真；诚挚
++ **composition**
+  + n.作品
++ **slight**
+  + a.轻微的
+  + n.轻视；冷落
++ **mock**
+  + v.嘲笑；嘲弄
++ **illusory**
+  + a.虚假的；幻觉的
