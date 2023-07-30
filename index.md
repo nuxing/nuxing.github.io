@@ -356,3 +356,54 @@
   + v.嘲笑；嘲弄
 + **illusory**
   + a.虚假的；幻觉的
+
+## 7.30(2010)
+
++ **inexorable**
+  + a.不可阻挡的
++ **coverage**
+  + n.新闻报道
++ **seriousness**
+  + n.严肃性
++ **to** the point of sth
+  + 达到某种程度
++ **granted**
+  + adv.的确
+  + 假定······
++ **press**
+  + n.报刊；出版社
+  + v.压
++ &save
+  + 除·······以外
++ **taste**
+  + n.味道；品味；鉴赏力
++ **retreat**
+  + n.撤退；退却
+
+---
+
++ **property**
+  + n.财产；特性
++ **eliminate**
+  + v.消除；清除；淘汰
++ **abuzz**
+  + a.议论纷纷的
++ **curb**
+  + n.控制；限制
++ **filings**
+  + n.存档档案；归档记录
++ **rival**
+  + n.竞争者；对手
++ **hedge**
+  + v.采取保护措施；规避
++ **narrow**
+  + a.狭窄的；勉强的
+  + v.缩小
++ **obvious**
+  + a.明显的；平淡无奇的
++ **dismiss**
+  + v.不予考虑；驳回
++ **immune**
+  + a.不受影响的
++ **challenge**
+  + n.挑战；质疑
