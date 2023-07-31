@@ -407,3 +407,47 @@
   + a.不受影响的
 + **challenge**
   + n.挑战；质疑
+
+## 7.31 (2010)
+
++ **drive**
+  + v.驾驶；开车；驱动
++ **minority**
+  + n.少数；少数人
++ **embrace**
+  + n.拥抱；接受
++ **cursory**
+  + a.粗略的
++ **presence**
+  + n.在场；出席；存在
++ **readiness**
+  + n.愿意
+
+---
+
++ **fetch**
+  + v.去拿；去取；售得
++ **lobby**
+  + v.游说
++ **compromise**
+  + v.危害
++ **proper**
+  + a.恰当得；像样的
++ **encounter**
+  + v.遭遇；偶遇
++ **bruising**
+  + a.极为费力的；激烈的
++ **statement**
+  + n.声明；说法；结算账单
++ **temporary**
+  + a.暂时的；临时的
++ **trade**
+  + n.贸易；手艺
++ **reluctant**
+  + a.勉强的；不情愿的
++ **dealt**
+  + v.分配；经营
++ **mark**
+  + v.标明；注示；
++ **give** in to 
+  + 屈服；认输
