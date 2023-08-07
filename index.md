@@ -32,4 +32,48 @@
   + 投降；认输；放弃
 + share
   + v.分担
-+ 
+
+## 8.7 (10)
+
++ turned to
+  + 向···求助；转向···；
++ scrub
+  + v.擦洗；取消（原有计划安排）
++ spring
+  + n.春天；泉
++ essential
+  + a.必不可少的；基本的
++ tying(tie的现在分词)
+  + v.系；打结；连接
++ certain
+  + a.必然的；确信的
+
+---
+
++ concrete
+  + a.确实的；具体的；混凝土制的；
+  + n.混凝土
++ trial
+  + n.审判；试验；考验
+  + v.测试
++ regularly
+  + adv.有规律的；经常性的
++ regulate
+  + v.管理；约束；调整
++ not until
+  + 直到···为止
++ justified
+  + a.有正当理由的
++ usher
+  + v.把···引往，引领
++ entire
+  + a.整个的；全部的
++ unconstitutional
+  + a.违宪法的
++ conform
+  + vi.遵守；相一致
++ ought
+  + 应该
++ seldom
+  + adv.很少，难得
+
