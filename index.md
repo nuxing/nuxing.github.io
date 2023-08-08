@@ -57,7 +57,7 @@
   + n.审判；试验；考验
   + v.测试
 + regularly
-  + adv.有规律的；经常性的
+  + adv.有规律地；经常性地
 + regulate
   + v.管理；约束；调整
 + not until
@@ -76,4 +76,47 @@
   + 应该
 + seldom
   + adv.很少，难得
+
+## 8.8 (11)
+
++ rest
+  + n.剩余部分；休息时间
++ restate
+  + v.重申，重新表述
++ blow
+  + v.吹；炸开
+  + n.猛击；打击
+
+---
+
++ flee
+  + v.逃离；逃避
++ charitable
+  + a.慈善的；仁慈的
++ out of date
+  + 过时的
++ shrug off
+  + 抖去；摆脱
++ margins
+  + n.边；利润；差数
++ routine
+  + n.惯例；例程
+  + a.常规的；乏味的
++ afloat
+  + a.漂浮；能维持下去
++ overboard
+  + adv.裁员；从船上掉下
++ nerve
+  + n.神经；勇气；焦虑；厚颜
++ slimmer
+  + n.减肥者；缩水
++ disperse
+  + v.（使）散开；（使）扩散
++ desperate
+  + a.绝望的；渴望的；孤注一掷的
++ healthy
+  + a.健康的；合情理的
++ savagely
+  + adv.野蛮的；残暴的
+
 
