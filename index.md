@@ -119,4 +119,44 @@
 + savagely
   + adv.野蛮的；残暴的
 
+## 8.9 (11)
 
++ stimulus
+  + n.刺激物；刺激
++ grant
+  + v.批准；承认
++ sophisticated
+  + a.见多识广的；精密的
++ emptiness
+  + n.空虚；空旷
++ glass
+  + n.玻璃；眼镜
++ airy
+  + a.通风的；漫不经心的
++ commission
+  + n.委员会；佣金；委托
++ homegrown
+  + a.本国产的；本土力量
+
+---
+
++ stuck
+  + a.卡住的；困于···的
++ borrow
+  + v.借用；引用
++ quasi
+  + 类似；准
++ rigour
+  + n.严密；严酷
++ via
+  + 经由；凭借
++ cheaper
+  + a.廉价的；低俗的
++ curb
+  + v.控制；抑制
++ border
+  + n.边界；花带
+  + v.环绕
++ edge
+  + n.边线；优势；影响力
+  + v.缓慢的移动；略微增加
