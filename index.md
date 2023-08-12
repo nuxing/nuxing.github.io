@@ -12,6 +12,8 @@
   + n.（价格等）暴跌；萧条期
 + deliver
   + v.递送；传送；兑现；发表（讲话）
++ matched
+  + a.相配的；势均力敌的
 
 ---
 
@@ -160,3 +162,22 @@
 + edge
   + n.边线；优势；影响力
   + v.缓慢的移动；略微增加
+
+## 8.12 (12)
+
++ pastel
+  + n.蜡笔画；淡彩色
+  + a.淡的；柔和的
++ intimate
+  + v.暗示
++ constancy
+  + n.稳定性；持久不变性
++ toddler
+  + n.学步的儿童
++ previously
+  + adv.先前；以前
++ sequencing
+  + n.排序，测序
++ authoritative
+  + a.有威信的；有权威的
+  
