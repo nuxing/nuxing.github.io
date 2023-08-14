@@ -22,7 +22,7 @@
 + comment
   + n.评论；意见
 + address
-  + n.地址；演说
+  + n.地址；演说；处理
 + particuar
   + a.特定的；额外的；挑剔的
   + n.细节；详情
@@ -181,3 +181,42 @@
 + authoritative
   + a.有威信的；有权威的
   
+## 8.13 (12)
+
++ struggle
+  + vi.努力；艰难地前行；斗争
+  + n.斗争，努力；扭打；难事
+
+## 8.14 (13)
+
++ price
+  + n.价格
++ piece
+  + n.片；碎片；一个
++ field
+  + n.田；领域；运动场
++ employment
+  + n.在职；使用；雇佣
++ forever
+  + adv.永恒的；永久的
++ shed
+  + n.厂房；棚屋
+  + v.去除；使落下；流（泪、血）
++ erase
+  + v.消除；抹去；删除
++ previous
+  + a.先前的
++ total
+  + a.全部的；总计的
++ straddle
+  + v.骑；坐；横跨
++ permanent
+  + a.永久的；永恒的
++ brand
+  + n.品牌；一种
++ framework
+  + n.框架；结构
++ broken
+  + a.破损的；破灭的
++ recognize
+  + v.认出；承认
