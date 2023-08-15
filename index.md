@@ -220,3 +220,34 @@
   + a.破损的；破灭的
 + recognize
   + v.认出；承认
+
+## 8.15 (13)
+
++ defence
+  + n.保卫；防御物；辩护
++ hard-wired
+  + 硬接线的；无法改变的；本能
++ prove
+  + v.证实；证明
++ primes
+  + a.首要的；典型的
+  + v.把···准备好
++ piece
+  + n.片；碎片；一个
++ thick
+  + a.厚的；浓的
++ retreat
+  + n.撤退；静修
+
+---
+
++ mandate
+  + n.授权；命令；任期
+  + v.强制执行；授权
++ provisions
+  + n.提供；供给；准备
++ meritocracy
+  + n.精英领导体制
++ exception
+  + n.例外；规则的例外；
+
