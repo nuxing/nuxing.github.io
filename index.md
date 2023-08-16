@@ -251,3 +251,34 @@
 + exception
   + n.例外；规则的例外；
 
+## 8.16 (14)
+
++ jackpot
+  + n.头奖；最高奖
++ worse
+  + a.更坏的；更严重的
++ mental
+  + a.精神上的；疯狂的；智力的
++ fairly
+  + adv.公正的；相当的
++ tour
+  + n.旅行；游览
++ whopping
+  + a.巨大的
++ sparinglu
+  + adv.一点点；节约的
++ trick
+  + n.诡计；花招；诀窍
+  + a.虚弱的
++ rarity
+  + n.罕见的人（或者物）；稀有
++ anxious
+  + a.焦虑的；渴望的；让人担忧的
++ amass
+  + v.积累；大量收集
++ doctor
+  + n.博士；医生
+  + v.篡改；伪造
++ cream
+  + n.奶油；护肤霜；精髓
+
