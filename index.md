@@ -282,3 +282,36 @@
 + cream
   + n.奶油；护肤霜；精髓
 
+## 8.17 (14)
+
++ fragile
+  + a.易碎的；脆弱的
++ bust
+  + v.打碎；突击搜捕
+  + n.半身像；萧条期；搜捕
++ for good
+  + 永久；永远
++ outmode
+  + v.使过时
++ appetite
+  + n.胃口；渴望
++ tightly
+  + adv.紧密的
++ scripted
+  + a.照原稿宣读的
++ script
+  + n.剧本；脚本
+
+---
+
++ grant
+  + v.批准；承认
+  + n.拨款，补助金
++ term
+  + n.术语；学期；期限
++ authority
+  + n.权力；当局；授权
++ oppose
+  + v.反对；阻挠
++ against
+  + 反对；对···不利
