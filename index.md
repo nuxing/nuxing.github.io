@@ -265,7 +265,7 @@
   + n.旅行；游览
 + whopping
   + a.巨大的
-+ sparinglu
++ sparingly
   + adv.一点点；节约的
 + trick
   + n.诡计；花招；诀窍
@@ -281,6 +281,10 @@
   + v.篡改；伪造
 + cream
   + n.奶油；护肤霜；精髓
++ mandate
+  + n.授权；授权令；任期
++ delusion
+  + n.错觉；妄想
 
 ## 8.17 (14)
 
@@ -301,6 +305,8 @@
   + a.照原稿宣读的
 + script
   + n.剧本；脚本
++ reinvent
+  + v.改良；改革
 
 ---
 
@@ -315,3 +321,73 @@
   + v.反对；阻挠
 + against
   + 反对；对···不利
++ indicatiion
+  + n.表明，象征
+
+## 8.18 (15)
+ 
++ contrary
+  + a.相对立的；相反的
++ actually
+  + adv.事实上；竟然；说真的
++ marker
+  + n.标记；标志；
++ blur
+  + n.模糊不清的事物
++ gap
+  + n.缝隙；间隔；差距
++ modest
+  + a.谦虚；不太大的
++ navigate
+  + v.应付（困难情况）；航行；（为···导航）
++ approach
+  + n.方法；路径
+  + v.要求；处理
+
+
+## 8.19 (15)
+
++ amid
+  + 在···过程中；在···中
++ figure out
+  + 弄懂；弄清楚
+
+---
+
++ precondition
+  + n.前提；先决条件
++ no longer
+  + 不再，再也不
++ as long as
+  + 只要；既然；由于
++ decent
+  + a.像样的；得体的
++ pace
+  + n.速度；步伐；节奏
++ picture
+  + n.图画；描绘；状况
++ meet
+  + v.相遇；遭遇；满足
++ previously
+  + adv.以前；先前
+
+## 8.23 (16)
+
++ population
+  + n.人口；某地某类人或某种动物的总数
++ give in
+  + 认输；投降
++ prairie
+  + n.(北美)大草原
+
+## 8.24 (16)
+
++ carefree
+  + a.无忧无虑的，无牵挂的
++ virtually
+  + adv.几乎
++ aftermath
+  + n.后果；余波
++ searing
+  + a.灼烧的；猛烈批评的
++ 
